@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Assignment 2 - Students App</string>
+    <string name="title_activity_students_list">StudentsListActivity</string>
+    <string name="title_activity_new_student">NewStudentActivity</string>
+    <string name="title_activity_student_details">StudentDetailsActivity</string>
+    <string name="title_activity_edit_student">EditStudentActivity</string>
+    <string name="student_image" />
 </resources>

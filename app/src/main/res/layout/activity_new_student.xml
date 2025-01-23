@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/studentNameInput"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:background="?android:attr/editTextBackground" />
+
+    <EditText
+        android:id="@+id/studentIdInput"
+        android:hint="Enter ID"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:background="?android:attr/editTextBackground"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/studentPhoneInput"
+        android:hint="Enter Phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:background="?android:attr/editTextBackground" />
+
+    <EditText
+        android:id="@+id/studentAddressInput"
+        android:hint="Enter Address"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="12dp"
+        android:background="?android:attr/editTextBackground"/>
+
+
+    <Button
+        android:id="@+id/saveStudentButton"
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/CancelStudentButton"
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
