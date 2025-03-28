@@ -19,5 +19,12 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Assignment 2 - Students App"
+rootProject.name = "EduShare"
 include(":app")
+
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
